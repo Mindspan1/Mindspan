@@ -50,17 +50,17 @@ export const signup = async (req, res, next) => {
     const transporter = nodemailer.createTransport({
       service: 'gmail', // e.g., 'gmail', 'yahoo', etc.
       auth: {
-        user: 'wissham25@gmail.com',
-        pass: 'pqob zpzu ztmy bnaz',
+        user: 'mind.span.team@gmail.com',
+        pass: 'sybz zqup hjdo tker',
       },
     });
 
     // Email content
     const mailOptions = {
-      from: 'wissham25@gmail.com',
+      from: 'mind.span.team@gmail.com',
       to: email,
-      subject: 'Account Verification',
-      text: `this is the code for verification account: ${verificationNumber}`,
+      subject: 'Verificaation de compte',
+      text: `le code de verification est ${verificationNumber}`,
     };
 
     // Send the email
@@ -159,8 +159,8 @@ export const sendPassword = async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: 'gmail', // e.g., 'gmail', 'yahoo', etc.
       auth: {
-        user: 'wissham25@gmail.com',
-        pass: 'pqob zpzu ztmy bnaz',
+        user: 'mind.span.team@gmail.com',
+        pass: 'sybz zqup hjdo tker',
       },
     });
 
@@ -176,10 +176,10 @@ export const sendPassword = async (req, res) => {
 
     // Email content
     const mailOptions = {
-      from: 'wissham25@gmail.com',
+      from: 'mind.span.team@gmail.com',
       to: email,
-      subject: 'Reset Password',
-      text: `Your new password is: ${newPassword}`, // Include the new password
+      subject: 'Modifier votre mot de passe',
+      text: `le nouveaux mot de passe est ${newPassword}`, // Include the new password
     };
 
     // Send the email
