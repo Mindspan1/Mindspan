@@ -119,7 +119,6 @@ useEffect(() => {
             }
           >
             <Dropdown.Header>
-              <span >@{currentUser.username}</span>
               <span >
                 {currentUser.username}
               </span>
