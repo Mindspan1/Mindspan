@@ -68,7 +68,7 @@ const Aboutus = () => {
            </div>
         </div>
         
-  {/* 
+
 <div className='containcustomer'>
     <div className='arroww' >
         <IonIcon icon={chevronBackOutline} className='iconcart' onClick={prevSlide} />
@@ -84,7 +84,6 @@ const Aboutus = () => {
         <IonIcon icon={chevronForwardOutline} className='iconcart' onClick={nextSlide}/>
     </div>
 </div>
-*/}
 
     </div>
   )

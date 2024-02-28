@@ -36,7 +36,9 @@
     justify-self: center;
     padding-top: 3rem;
 }
-
+.discovimg img {
+height: 50%;
+}
 #cardinfo1 {
     transition: transform 0.3s ease;
     padding-top: 10px;
