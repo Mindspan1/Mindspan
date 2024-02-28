@@ -68,17 +68,24 @@ const Aboutus = () => {
            </div>
         </div>
         
-        <div className='containcustomer'>
-            <div className='arroww' ><IonIcon icon={chevronBackOutline} className='iconcart' onClick={prevSlide} /></div>
-            {datacustomer.map((item, index) => (
-                <div key={index} className={index === currentIndex ? 'customertalk active' : 'customertalk'}>
-                    <div className='profilimgcontain'><img src={item.img} alt="customer-img" /></div>
-                    <p>{item.description}</p>
-                    <ul><li id='customer'>#{item.name}</li></ul>
-                </div>
-            ))}
-            <div className='arroww' ><IonIcon icon={chevronForwardOutline} className='iconcart' onClick={nextSlide}/></div>
+  {/* 
+<div className='containcustomer'>
+    <div className='arroww' >
+        <IonIcon icon={chevronBackOutline} className='iconcart' onClick={prevSlide} />
+    </div>
+    {datacustomer.map((item, index) => (
+        <div key={index} className={index === currentIndex ? 'customertalk active' : 'customertalk'}>
+            <div className='profilimgcontain'><img src={item.img} alt="customer-img" /></div>
+            <p>{item.description}</p>
+            <ul><li id='customer'>#{item.name}</li></ul>
         </div>
+    ))}
+    <div className='arroww' >
+        <IonIcon icon={chevronForwardOutline} className='iconcart' onClick={nextSlide}/>
+    </div>
+</div>
+*/}
+
     </div>
   )
 }
